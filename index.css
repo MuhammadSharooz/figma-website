@@ -1023,7 +1023,7 @@ button:active {
 
     .btn {
         display: flex;
-        padding: 9px 7px;
+
         border-radius: .5rem;
         border: none;
         flex-direction: row;
@@ -1060,9 +1060,12 @@ button:active {
     }
 
 }
-@media screen and (max-width:410px){
+@media screen and (max-width:460px){
     .btn{
-        padding: 4px 4px;
+        width: 160px;
+        height: 55px;
+        align-items: center;
+        justify-self: unset;
     }
     .download{
         font-weight: 400px;
@@ -1070,7 +1073,7 @@ button:active {
     }
     .down{
         font-weight: 400px;
-        font-size: 12px;
+        font-size: 15px;
     }
     .line{
         font-size: 16px;
@@ -1079,6 +1082,10 @@ button:active {
     }
     .header .box1{
         width: 30%;
+    }
+    .text{
+        align-items: center;
+        justify-content: center;
     }
     .header .box2{
         width: 20%;
